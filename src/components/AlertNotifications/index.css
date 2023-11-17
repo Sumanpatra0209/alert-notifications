@@ -1,0 +1,68 @@
+/* Write your CSS here */
+
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.responsiveContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.heading {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 10px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.icon {
+  min-width: 30px;
+  margin-right: 15px;
+}
+
+.messageContainer {
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+.messageHeading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
